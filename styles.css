@@ -1,0 +1,51 @@
+body{
+    padding: 2% 5% 0%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover_image{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 1px;
+    background-color: #ccc;
+}
+
+h1 {
+    font-size:100px;
+    margin-bottom:25px;
+  }
+
+  
+.content{
+    border-radius: 15px;
+    text-align: left;
+    background-color: black;
+	padding: 15px;
+	font-size: 18px;
+
+}
+.content ul {
+	padding: 0 20vw;
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.content ul li {
+	font-weight: 100;
+}
+
+.content ul li strong:after {
+	content: " - ";
+	font-weight: 100;
+	color: #444;
+}
+
+
